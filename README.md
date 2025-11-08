@@ -33,7 +33,7 @@
   Use dx download to add this shell script to your working space in the RAP  
   Submit the script in a terminal on the UKB RAP with the command 'bash UKB_QC.sh'  
 
-  ### Note: If running any individual bits in terminal to troubleshoot, the three lines below must be run after any of the dx upload commands or newly uploaded files won't be found in later commands  
+  **Note: If running any individual bits in terminal to troubleshoot, the three lines below must be run after any of the dx upload commands or newly uploaded files won't be found in later commands** 
   
   umount /mnt  
   mkdir -p /mnt  
