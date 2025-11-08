@@ -52,7 +52,7 @@ rm -f ./keep.csv
 
     echo "Extracting Dataset..."
 
-dx extract_dataset project-J1qvq8QJ69pGx77pKyKFb915:record-J41BK60JjX0Z1QfyzZJFVbGj \
+dx extract_dataset project-XXXXXXXXXXXXXXXXXX:record-XXXXXXXXXXXXXXXXXXXXXXX \
     --fields participant.eid,participant.p31,participant.p22001,participant.p22006,participant.p22019,participant.p22020 \
     -o ./keep.csv
 
@@ -157,5 +157,5 @@ for i in {1..22}; do
      -icmd="${qc}" \
      --tag="QC_chr${i}" \
      --instance-type "mem1_ssd1_v2_x36" \
-     --destination="project-J1qvq8QJ69pGx77pKyKFb915:/QCed_Genetic_Data" --brief --yes
+     --destination="project-XXXXXXXXXXXXXXXXXX:/QCed_Genetic_Data" --brief --yes
 done
