@@ -1,16 +1,16 @@
 # Genetic QC in UK Biobank  
 
-Environment: UK Biobank RAP  
-Tools: Terminal and Swiss Army Knife  
-Input File: UKB_QC.sh  
-Output Destination: /project/QCed_Genetic_Data  
-Other files needed: ancestry_related_sex_removals.R  
-Instance: mem1_hdd1_v2_x2 for terminal and mem1_ssd1_v2_x36 for swiss army knife  
-Priority: Normal  
-Runtime: Terminal (~10mins) Swiss Army Knife (~1hr)  
-Cost: ~£3  
-Starting n = 487,411  
-Final n = 336,797  
+**Environment:** UK Biobank RAP  
+**Tools:** Terminal and Swiss Army Knife  
+**Input File:** UKB_QC.sh  
+**Output Destination:** /project/QCed_Genetic_Data  
+**Other files needed:** ancestry_related_sex_removals.R  
+**Instance:** mem1_hdd1_v2_x2 for terminal and mem1_ssd1_v2_x36 for swiss army knife  
+**Priority:** Normal  
+**Runtime:** Terminal (~10mins) Swiss Army Knife (~1hr)  
+**Cost:** ~£3  
+**Starting n:** 487,411  
+**Final n** 336,797  
 
 ## What this script does  
 
