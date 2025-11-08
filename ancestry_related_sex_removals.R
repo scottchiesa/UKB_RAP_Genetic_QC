@@ -1,3 +1,5 @@
+## This file will be automatically run by UKB_QC.sh provided it is in the right directory
+
 # Load library needed
 
 library(dplyr)
